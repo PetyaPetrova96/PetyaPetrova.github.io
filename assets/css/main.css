@@ -36,6 +36,16 @@ body {
 ol, ul {
 	list-style: none;
 }
+.points{
+	display:flex;
+	flex-direction: column;
+}
+.points li{
+	justify-content:flex-start;
+	align-items:flex-start;
+	align-self:self-start;
+
+}
 
 blockquote, q {
 	quotes: none;
@@ -4687,3 +4697,4 @@ input, select, textarea {
 		}
 
 	}
+	
